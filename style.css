@@ -1,0 +1,26 @@
+body {
+    background: rgb(255, 225, 230);
+    font-family: 'Maven Pro', sans-serif;
+    padding: 20px;
+}
+
+.flower-info {
+    border: 1px gray solid;
+    padding: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+img.flower-image {
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.like-button {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    height: 50px;
+    width: 50px;
+}

@@ -100,10 +100,11 @@ function addLikeListener(heartElement, id) {
 
 function buildFavorites() {
 
+    // Filter for flowers the user likes
+    // map makes a new list with just the names
     let favorites = flowers
                         .filter( flower => flower.userLikes)
                         .map( flower => flower.name )
-
     
     let favoritesString = favorites.join(', ')
     

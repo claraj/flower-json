@@ -5,6 +5,10 @@ let favoritesEl = document.querySelector('#favorites')
 let likeImg = 'images/red-heart.png'
 let notLikeImg = 'images/gray-heart.png'
 
+// Sorting with comparison function, sorts by name
+flowers.sort( (f1, f2) => f1.name.localeCompare(f2.name) )
+
+
 flowers.forEach( flower => {
     let flowerElement = createFlowerInfo(flower);
     container.appendChild(flowerElement)
